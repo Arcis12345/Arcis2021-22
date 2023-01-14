@@ -211,7 +211,38 @@ a:focus {
         margin: 15px 0 10px 0;
     }
 }
+.popup{
+    width:100%;
+    height:fit-content;
+    background-color: rgb(83, 13, 13);
+    align-items: center;
+  
+    margin-top: 50px;
+    
+}
+.donate{
+    color: #ffffff;
+    text-transform: uppercase;
+    
+}
 
+.text{
+    color: whitesmoke;
+    padding-left: 30px;
+    padding-right:20px;
+}
+.link{
+color: white;
+font-weight:3000 ;
+padding-left: 30px;
+padding-bottom: 0px;
+padding-bottom: 20px;
+}
+.us{
+    color: white;
+font-weight:1000 ;
+padding-bottom: 20px;
+}
 
 /*******************************/
 /******* Page Header CSS *******/
