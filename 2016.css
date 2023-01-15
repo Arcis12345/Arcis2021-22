@@ -227,6 +227,59 @@ a:focus {
     padding-right: 100px;
     font-size: 30px;
     font-weight:700;
+    font-family: 'Franklin Gothic Medium','Arial Narrow', Arial, sans-serrif;
+}
+
+
+
+
+/*******************************/
+/******* Section Header ********/
+/*******************************/
+.section-header {
+    position: relative;
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    padding-bottom: 15px;
+}
+
+.section-header::after {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    left: calc(50% - 30px);
+    bottom: 0;
+    background: linear-gradient(to left, #4F84C4, #00539C, #4F84C4);
+    border-radius: 100%;
+}
+
+/* .section-header h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+} */
+
+.cap{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.names{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 24px;
+}
+.team{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 /*******************************/
