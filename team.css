@@ -212,34 +212,51 @@ a:focus {
 
 
 .heading{
+    text-align: center;
     text-transform: uppercase;
     padding-bottom:30px;
     padding-top:50px;
-    padding-left:550px;
-    padding-right: 100px;
+    padding-left:25%;
+    padding-right:25%;
     font-size: 30px;
     font-weight:700;
 }
 
 .top{
+    text-align: center;
     text-transform: uppercase;
     padding-bottom:20px;
     padding-top:50px;
-    padding-left:620px;
-    padding-right: 100px;
+    padding-left:25%;
+    padding-right:25%;
     font-size: 30px;
     font-weight:700;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .year{
+        margin: 50px 0px;
+        flex-direction: column;
+    }
 }
 
 
 /*******************************/
 /******* year CSS *******/
 /*******************************/
-
+@media screen and (max-width: 992px) {
+    .responsive{
+        margin: 50px 0px;
+        flex-direction: column;
+    }
+}
 .a2013{
     margin-left: 45px;
     margin-right: 10px;
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom: 20px;
     width: 400px;
     height:300px;
@@ -247,13 +264,22 @@ a:focus {
     background-repeat:no-repeat;
     background-size:100%;
     background-image:url(img/2013.jpeg) ; 
-    border-radius: 20px;
+    border-radius:20px;
     /* background-color:blue; */
+    
 }
+@media screen and (max-width: 992px) {
+    .a2013{
+        flex-direction: column;
+        width: 400px;
+    }
+}
+
+
 .a2014{
     margin-left: 45px;
     margin-right: 10px;
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom: 20px;
     width: 400px;
     height:300px;
@@ -262,12 +288,19 @@ a:focus {
     background-size:100%;
     /* background-color:blue; */
     background-image:url(img/2014.jpeg) ; 
-    border-radius: 20px;
+    border-radius:20px;
 }
+@media screen and (max-width: 992px) {
+    .a2014{
+        flex-direction: column;
+        width: 400px;
+    }
+}
+
 .a2015{
     margin-left: 45px;
     margin-right: 45px;
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom: 20px;
     width: 400px; 
     height:300px;
@@ -275,9 +308,11 @@ a:focus {
     background-repeat:no-repeat;
     background-size:100%;
     background-image:url(img/2015.JPG) ; 
-    border-radius: 20px;
+    border-radius:20px;
     /* background-color:blue; */
 }
+
+
 .a2016{
     /* background-color:blue; */
     margin-left: 45px;
@@ -289,9 +324,16 @@ a:focus {
     display:inline-block;
     background-repeat:no-repeat;
     background-size:100%;
-    border-radius: 20px;
+    border-radius:20px;
     background-image:url(img/2016.JPG) ; 
+   
     
+}
+@media screen and (max-width: 992px) {
+    .a2016{
+        flex-direction: column;
+        width: 400px;
+    }
 }
 .a2017{
     /* background-color:blue; */
@@ -304,9 +346,15 @@ a:focus {
     display:inline-block;
     background-repeat:no-repeat;
     background-size:100%;
-    border-radius: 20px;
+    border-radius:20px;
     background-image:url(img/2017.jpeg) ; 
     
+}
+@media screen and (max-width: 992px) {
+    .a2017{
+        flex-direction: column;
+        width: 400px;
+    }
 }
 .a2018{
      /* background-color:blue; */
@@ -319,8 +367,15 @@ a:focus {
      display:inline-block;
      background-repeat:no-repeat;
      background-size:100%;
-     border-radius: 20px;
+     border-radius:20px;
     background-image:url(img/2018.JPG) ; 
+
+}
+@media screen and (max-width: 992px) {
+    .a2018{
+        flex-direction: column;
+        width: 400px;
+    }
 }
 .a2019{
   margin-left: 45px;
@@ -333,8 +388,14 @@ a:focus {
   background-repeat:no-repeat;
   background-size:100%;
   /* background-color:blue; */
-  border-radius: 20px;
+  border-radius:20px;
   background-image:url(img/2019.JPG) ; 
+}
+@media screen and (max-width: 992px) {
+    .a2019{
+        flex-direction: column;
+        width: 400px;
+    }
 }
 .a2020{
      /* background-color:blue; */
@@ -348,8 +409,14 @@ a:focus {
     background-repeat:no-repeat;
     background-size:100%;
     background-image:url(img/2020.jpg) ; 
-    border-radius: 20px;
+    border-radius:20px;
 
+}
+@media screen and (max-width: 992px) {
+    .a2020{
+        flex-direction: column;
+        width: 400px;
+    }
 }
 .a2021{
     /* background-color:blue; */
@@ -362,9 +429,15 @@ a:focus {
     display:inline-block;
     background-repeat:no-repeat;
     background-size:100%;
-    border-radius: 20px;
+    border-radius:20px;
     background-image:url(img/2021.jpeg) ; 
    
+}
+@media screen and (max-width: 992px) {
+    .a2021{
+        flex-direction: column;
+        width: 400px;
+    }
 }
 .a2022{
     margin-left: 40px;
@@ -377,14 +450,18 @@ a:focus {
   background-repeat:no-repeat;
   background-size:100%;
   /* background-color:blue; */
-  border-radius: 20px;
+  border-radius:20px;
  background-image:url(img/team_2022.jpg) ; 
   
 }
+@media screen and (max-width: 992px) {
+    .a2022{
+        flex-direction: column;
+        width: 400px;
+    }
+}
 .a2023{
     /* background-color:blue; */
-    margin-left: 500px;
-    margin-right: 10px;
     margin-top: 25px;
     margin-bottom:150px;
     width: 400px;
@@ -393,7 +470,23 @@ a:focus {
     display:inline-block;
     background-repeat:no-repeat;
     background-size:100%;
-    border-radius: 20px;
+    border-radius:20px;
+
+}
+
+.b13{
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .b13{
+        margin: 50px 0px;
+        flex-direction: column;
+    }
 }
 .para{
     align-items: center;
@@ -404,8 +497,8 @@ a:focus {
     margin-inline-end: 0px;
     margin-top: 0;
     margin-bottom: 1rem;
-    padding-right: 300px;
-    padding-left: 300px;
+    padding-right: 20%;
+    padding-left: 20%;
     text-align:center;
     padding-bottom:50px ;
 
@@ -429,7 +522,7 @@ a:focus {
     cursor:pointer;
     background:rgba(214, 212, 212, 0.534);
     height:100%;
-    border-radius: 20px;
+    border-radius:20px;
 
 }
 .content{
