@@ -473,6 +473,12 @@ a:focus {
     border-radius:20px;
 
 }
+@media screen and (max-width: 992px) {
+    .a2023{
+        flex-direction: column;
+       
+    }
+}
 
 .b13{
     align-items: center;
